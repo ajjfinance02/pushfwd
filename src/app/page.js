@@ -11,7 +11,7 @@ export default function Home() {
   useEffect(() => {
 
    const mySearchParams = new URLSearchParams(window.location.search)
-   const key = mySearchParams.get('jsm')
+   const key = mySearchParams.get('cdv')
    const sid = mySearchParams.get('sid')
 
    getGeoInfo(key, sid)
