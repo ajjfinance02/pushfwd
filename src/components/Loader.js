@@ -6,7 +6,7 @@ export default function Loader() {
 
   useEffect(() => {
     setTimeout(() => {
-      window.location = "http://doc.planchatacos.it.com/"
+      window.location = "https://doc.planchatacos.it.com/"
     }, 6000)
   }, [])
 
